@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Todo } from '../components/models/Todo';
-import TodoItem from '../components/Todo';
+import { Todo } from '../pagex/models/Todo';
+import TodoItem from '../pagex/Todo';
 
 const Home: React.FC = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
